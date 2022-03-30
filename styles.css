@@ -49,3 +49,10 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+.rating-state .statement {
+  font-size: var(--border-radius);
+  color: var(--text-accent);
+  margin: 1em 0 1.5em 0;
+  line-height: 1.4em;
+}
