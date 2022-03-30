@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
 
+:root {
+  --background-color: hsl(216, 12%, 8%);
+  --color-primary: hsl(25, 97%, 53%);
+  --color-secondary: hsl(213, 19%, 18%);
+  --text-primary: hsl(0, 0%, 100%);
+  --text-secondary: hsl(217, 12%, 63%);
+  --text-accent: hsl(216, 12%, 54%);
+}
+
 *,
 *::before,
 *::after {
