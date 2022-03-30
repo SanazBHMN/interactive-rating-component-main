@@ -56,3 +56,21 @@ main {
   margin: 1em 0 1.5em 0;
   line-height: 1.4em;
 }
+
+.rates ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.3em;
+}
+
+.rates ul li {
+  list-style: none;
+  background-color: var(--background-color);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
