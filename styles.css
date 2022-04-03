@@ -75,6 +75,11 @@ main {
   border-radius: 100%;
 }
 
+ul li:hover {
+  background-color: var(--color-primary);
+  cursor: pointer;
+}
+
 button {
   display: block;
   width: 100%;
@@ -86,6 +91,12 @@ button {
   border: none;
   padding: 1em;
   border-radius: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: var(--color-primary);
+  background-color: var(--text-primary);
 }
 
 /* Thank You Card */
