@@ -50,7 +50,7 @@ main {
   align-items: center;
 }
 
-.rating-state .statement {
+.statement {
   font-size: var(--border-radius);
   color: var(--text-accent);
   margin: 1em 0 1.5em 0;
@@ -86,4 +86,30 @@ button {
   border: none;
   padding: 1em;
   border-radius: 20px;
+}
+
+/* Thank You Card */
+.thank-you-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.submitted-rate {
+  width: max-content;
+  margin: 1.7rem auto;
+  padding: 8px 10px;
+  border-radius: 20px;
+  color: var(--color-primary);
+  background-color: var(--background-color);
+
+}
+
+.thank-you-state .title {
+  text-align: center;
+}
+
+.thank-you-state .statement {
+  text-align: center;
 }
